@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Offcanvas</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bootstrap/js/bootstrap.js">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../js/scrip.js">
+</head>
+<body class="bodydising container">
+  <article class="dising-page acordion container">
+    <h1 class="comph1">Offcanvas</h1>
+    <p class="compp">Este es un elemento el cual hace aparecer una barra lateral la cual se le puede cambiar de posicion hacia arriba, abajo, izquierda o derecha.</p>
+    <a class="btnmarg btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+        Ejemplo #1
+    </a>
+    <article class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <aside class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          
+        </aside>
+        <p></p>
+        <p>Este es un ejemplo de offcanvas a la izquierda.</p>
+    </article>
+
+    <button class="btnmarg btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Ejemplo #2</button>
+    <article class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+      <aside class="offcanvas-header">
+        <h5 id="offcanvasTopLabel">Offcanvas top</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </aside>
+      <aside class="offcanvas-body">
+        Este es un ejemplo de offcanvas en la parte superior de la pantalla.
+      </aside>
+    </article>
+  <script src="../bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Forms</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bootstrap/js/bootstrap.js">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../js/scrip.js">
+</head>
+<body class="bodydising container">
+  <article class="dising-page acordion container">
+    <h1 class="comph1">Forms</h1>
+    <p class="compp"> Sirve para crear formularios y darle muchos estilos distintos.</p>
+    <section class="validations container">
+        <article>
+            <form class="formulario row g-3 needs-validation" novalidate>
+                <article class="col-md-4">
+                  <label for="validationCustom01" class="form-label">Primer nombre</label>
+                  <input type="text" class="form-control" id="validationCustom01" placeholder="Primer nombre" required>
+                  <aside class="valid-feedback">
+                    Completo!
+                  </aside>
+                </article>
+                <article class="col-md-4">
+                  <label for="validationCustom02" class="form-label">Segundo nombre</label>
+                  <input type="text" class="form-control" id="validationCustom02" placeholder="Segundo nombre" required>
+                  <aside class="valid-feedback">
+                    Completo!
+                  </aside>
+                </article>
+                <article class="col-md-4">
+                  <label for="validationCustomUsername" class="form-label">Usuario</label>
+                  <aside class="input-group has-validation">
+                    <span class="input-group-text" id="inputGroupPrepend">@</span>
+                    <input placeholder="Digite su email" type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                    <aside class="invalid-feedback">
+                      Porfavor digite un email correcto!
+                    </aside>
+                  </aside>
+                </article>
+                <article class="col-md-6">
+                  <label for="validationCustom03" class="form-label">Ciudad</label>
+                  <input placeholder="Ciudad de procedencia" type="text" class="form-control" id="validationCustom03" required>
+                  <aside class="invalid-feedback">
+                    Invalido.
+                  </aside>
+                </article>
+                <article class="col-md-3">
+                  <label for="validationCustom04" class="form-label">Provincia</label>
+                  <select class="form-select" id="validationCustom04" required>
+                    <option selected disabled value="">Ver...</option>
+                    <option>San Jose </option>
+                    <option>Cartago </option>
+                  </select>
+                  <aside class="invalid-feedback">
+                    Please select a valid state.
+                  </aside>
+                </article>
+                <article class="col-12">
+                  <button class="btn btn-primary" type="submit">Enviar formulario</button>
+                </article>
+              </form>
+        </article>
+    </section>
+  </article>
+
+  <script src="../bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
