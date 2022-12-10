@@ -1,0 +1,314 @@
+body{
+    margin: 0;
+}
+.menu{
+    margin: 0;
+    height: 20vh;
+    width: 100%;
+    background-color: rgb(53, 53, 53);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(192, 253, 253);
+}
+.btnmenu{
+    border-radius: 20px;
+    margin-left: 25px;
+    width: 40vh;
+    height: 15vh;
+    background-color: rgb(61, 58, 58);
+    color: rgb(192, 253, 253);
+    font-weight: 500;
+    font-size: x-large;
+    border-style:none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.lis{
+    list-style:none
+}
+.nacbtn{
+    display: flex;
+
+}
+.inf-personal{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../asserts/web.dev.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.btn-contact{
+    margin-top: 2%;
+    height: 65px;
+    width: 170px;
+    border-radius: 15px;
+    background-color: rgb(53, 53, 53);
+    color: rgb(192, 253, 253);
+    font-size: x-large;
+    font-weight: 700;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.cuerpo{
+    background-color:rgb(53, 53, 53);
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+.components{
+    background-color: rgb(53, 53, 53);
+    padding: 2%;
+    align-items: center;
+    justify-content: center;
+}
+.format-cuerpo{
+    background-color: rgb(46, 46, 46);
+    height: 40vh;
+    width: 40vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    border-style: solid;
+    margin: 3%;
+    text-align: center;
+}
+.btn-vermas{
+    height: 7vh;
+    width: 13vh;
+    font-weight: 500;
+    font-size: larger;
+    border-radius: 10px;
+    background-color: rgb(75, 75, 75);
+    color: white;
+    border-style: none;
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.footer{
+    height: 60vh;
+    width: 100%;
+    background-color: rgb(32, 32, 32);
+}
+.artfooter{
+    color: white;
+    width: 60vh;
+    padding: 4%;
+}
+
+.bodyacord{
+    background-color: rgb(63, 63, 63);
+}
+.acor-page{
+    background-color: rgb(63, 63, 63);
+    height: 90vh;
+    width: 115vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.comph1{
+    color: white;
+    text-align: center;
+}
+.compp{
+    color: white;
+    text-align: center;
+    font-size: large;
+    margin: 3%;
+}
+.bodyalert{
+    background-color: rgb(63, 63, 63);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.alertas{
+    background-color: rgb(63, 63, 63);
+    height: 70vh;
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.bodynotifinfor{
+    background-color: rgb(63, 63, 63);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.artspinpagi{
+    height: 60vh;
+    width: 85vh;
+    margin: 2%;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+}
+.artbadgebread{
+    height: 60vh;
+    width: 85vh;
+    margin: 2%;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+}
+.marnotif{
+    margin: 2%;
+}
+.itembret{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(126, 125, 125);
+    width: 30vh;
+    height: 25vh;
+}
+.itempag{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(126, 125, 125);
+    width: 40vh;
+    height: 30vh;
+}
+.bodybuttons{
+    background-color: rgb(63, 63, 63);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.artbuttons{
+    height: 60vh;
+    width: 85vh;
+    margin: 2%;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+}
+.btns{
+    margin-bottom: 1.5%;
+}
+.carrusel{
+    width: 75vh;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.botoncoll{
+    margin: 3%;
+}
+
+.bodydising{
+    background-color: rgb(63, 63, 63);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.dising-page{
+    height: 80vh;
+    width: 95vh;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+}
+.btnmarg{
+    margin: 3%;
+}
+.imag{
+    width: 40vh;
+}
+.tablas{
+    margin-top: 4%;
+    width: 75vh;
+}
+.formulario{
+    margin-top: 4%;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.imgjs{
+    width: 5vh;
+}
+.btnmar{
+    margin: 2%;
+}
+.pcdis{
+    width: 60vh;
+}
+
+.bodyscroll{
+    background-color: rgb(63, 63, 63);
+    color: white;
+}
+
+.navtabs {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 12vh;
+    width: 35vh;
+    border-radius: 10px;
+    background-color: rgb(102, 102, 102);
+    color: white;
+}
+.btncolor{
+    color: white;
+}

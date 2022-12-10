@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Collapse</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bootstrap/js/bootstrap.js">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../js/scrip.js">
+</head>
+<body class="bodydising container">
+  <article class="dising-page acordion container">
+    <h1 class="comph1">Collapse</h1>
+    <p class="compp">El collapse se utiliza para mostrar cierto contenido desplegandolo desde un boton.</p>
+    <p class="botoncoll">
+      <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Primer elemento alternado</a>
+      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Segundo elemento alternado</button>
+      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Los dos elementos alternados</button>
+    </p>
+    <article class="row">
+      <article class="col">
+        <aside class="collapse multi-collapse" id="multiCollapseExample1">
+          <aside class="card card-body">
+            Este panel está oculto de forma predeterminada, pero se revela cuando el usuario da click!
+          </aside>
+        </aside>
+      </article>
+      <article class="col">
+        <aside class="collapse multi-collapse" id="multiCollapseExample2">
+          <aside class="card card-body">
+            Este panel está oculto de forma predeterminada, pero se revela cuando el usuario da click!
+          </aside>
+        </aside>
+      </article>
+    </article>
+    <p class="botoncoll">
+      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+        Horizontal
+      </button>
+    </p>
+    <article style="min-height: 120px;">
+      <aside class="collapse collapse-horizontal" id="collapseWidthExample">
+        <aside class="card card-body" style="width: 300px;">
+          Este es un tipo de colapso que se despliega de forma horizontal.
+        </aside>
+      </aside>
+    </article>
+  </article>
+  <script src="../bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
